@@ -1,11 +1,5 @@
-# Family name: Rasool 
-# Student number:  300363106
-# Course: ITI 1120 
-# Assignment Number 5
-# year 2023
 
 import random
-
 
 def getuserFriends(userId, network):
     '''
@@ -211,9 +205,6 @@ def knows_everyone(network):
             return True
     return False
 
-
-####### CHATTING WITH USER CODE:
-
 def is_valid_file_name():
     '''None->str or None'''
     file_name = None
@@ -260,11 +251,6 @@ def get_uid(network):
 
     return userId
 
-##############################
-# main
-##############################
-
-# NOTHING FOLLOWING THIS LINE CAN BE REMOVED or MODIFIED
 
 file_name=get_file_name()
     
